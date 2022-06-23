@@ -1,0 +1,7 @@
+[package]
+name = "leetcode"
+version = "0.0.0"
+authors = ["Deane Leung"]
+edition = "2021"
+
+[dependencies]
