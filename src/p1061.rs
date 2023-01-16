@@ -64,7 +64,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn testcase1() {
+    fn case1() {
         let result = Solution::smallest_equivalent_string(
             "parker".to_string(),
             "morris".to_string(),
@@ -75,7 +75,7 @@ mod tests {
     }
 
     #[test]
-    fn testcase2() {
+    fn case2() {
         let result = Solution::smallest_equivalent_string(
             "hello".to_string(),
             "world".to_string(),
@@ -86,7 +86,7 @@ mod tests {
     }
 
     #[test]
-    fn testcase3() {
+    fn case3() {
         let result = Solution::smallest_equivalent_string(
             "leetcode".to_string(),
             "programs".to_string(),
